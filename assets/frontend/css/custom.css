@@ -776,7 +776,7 @@ footer {
     color: #ccc;
     position: absolute;
     margin-left: 210px;
-    margin-top: 5px;
+    margin-top: 15px;
     color: #666; /* Same color as the step circle or adjust to your liking */
     transition: color 0.3s ease;
 }
@@ -810,11 +810,6 @@ footer {
         height: 40px;
         line-height: 40px;
         font-size: 1.2rem;
-    }
-
-    .process-arrow {
-        display: none;
-        /* Hide arrows on smaller screens */
     }
 }
 
@@ -937,10 +932,6 @@ footer {
 @media (max-width: 768px) {
     .step-wrapper {
         flex-direction: column;
-    }
-
-    .process-arrow {
-        display: none; /* Hide arrows on smaller screens */
     }
 }
 
