@@ -19,6 +19,8 @@
 /* Apply Acumin Pro as default font for the body */
 body {
     font-family: 'Acumin Pro', Arial, sans-serif;
+    font-size: 1.2rem;
+    color: #666;
 }
 
 /* Headings use Bold */
