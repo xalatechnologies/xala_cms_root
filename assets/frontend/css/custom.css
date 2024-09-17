@@ -777,6 +777,12 @@ footer {
     position: absolute;
     margin-left: 210px;
     margin-top: 20px;
+    color: #666; /* Same color as the step circle or adjust to your liking */
+    transition: color 0.3s ease;
+}
+
+.process-arrow:hover {
+    color: #666; /* Slightly darker color for hover effect */
 }
 
 .btn-primary-custom {
@@ -924,7 +930,7 @@ footer {
 }
 
 .step-circle:hover {
-    background-color: #0056b3; /* Slightly darker blue on hover */
+    background-color: #666; /* Slightly darker blue on hover */
     cursor: pointer;
 }
 
