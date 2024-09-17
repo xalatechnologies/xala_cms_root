@@ -525,7 +525,7 @@ footer {
     object-fit: contain;
     border-radius: 10px 10px 0 0;
     position: relative;
-    max-height: 130px;
+    max-height: 100px;
     padding: 20px;
 }
 
