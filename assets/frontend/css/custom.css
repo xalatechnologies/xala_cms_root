@@ -1183,7 +1183,6 @@ footer {
 }
 
 .microsoft-logos img {
-    max-width: 100px;
     /* Ensure logos are responsive */
     height: auto;
 }
