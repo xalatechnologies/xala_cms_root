@@ -512,7 +512,7 @@ footer {
     overflow: visible;
     position: relative;
     transition: transform 0.3s ease-in-out;
-    height: 550px;
+    height: 600px;
     padding-bottom: 60px;
     display: flex;
     flex-direction: column;
