@@ -332,7 +332,7 @@ footer {
     position: absolute;
     bottom: 0;
     left: 0;
-    background-image: url('./uploads/media/Vector.png');
+    background-image: url('uploads/media/Vector.png');
     /* Replace with the correct path to the SVG */
     background-size: contain;
     background-repeat: no-repeat;
@@ -347,7 +347,7 @@ footer {
 }
 
 .background-design {
-    background: url('/path-to-your-image/Vector.png') no-repeat left center;
+    background: url('/uploads/media/Vector.png') no-repeat left center;
     background-size: cover;
     position: absolute;
     left: 0;
@@ -355,6 +355,7 @@ footer {
     bottom: 0;
     width: 30%;
     z-index: -1;
+    opacity: 0.3;
 }
 
 /* Title and Subtitle */
@@ -1005,7 +1006,7 @@ footer {
     position: absolute;
     bottom: 0;
     right: -60px;
-    background-image: url('./uploads/media/Looper-1.svg');
+    background-image: url('/uploads/media/Looper-1.svg');
     /* Replace with the correct path to the SVG */
     background-size: contain;
     background-repeat: no-repeat;
