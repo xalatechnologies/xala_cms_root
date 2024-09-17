@@ -771,12 +771,12 @@ footer {
 
 /* Process Arrows */
 .process-arrow {
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: bold;
     color: #ccc;
     position: absolute;
     margin-left: 210px;
-    margin-top: 20px;
+    margin-top: 5px;
     color: #666; /* Same color as the step circle or adjust to your liking */
     transition: color 0.3s ease;
 }
