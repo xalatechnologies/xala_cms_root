@@ -771,7 +771,7 @@ footer {
 
 /* Process Arrows */
 .process-arrow {
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: bold;
     color: #ccc;
     position: absolute;
@@ -897,6 +897,47 @@ footer {
         display: none;
     }
 }
+
+
+.process-flow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.agile-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.step-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.step-title {
+    margin-top: 15px; /* Space between the circle and the title */
+    font-size: 16px;
+    color: #333;
+}
+
+.step-circle:hover {
+    background-color: #0056b3; /* Slightly darker blue on hover */
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .step-wrapper {
+        flex-direction: column;
+    }
+
+    .process-arrow {
+        display: none; /* Hide arrows on smaller screens */
+    }
+}
+
 
 /* Contact Us Section */
 .contact-us-section {
