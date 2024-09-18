@@ -12,6 +12,11 @@
     }
 }
 
+.dropdown-menu {
+    min-width: 50px;
+    text-align: center;
+}
+
 .staff-member {
     background: #ffff !important;
 }
